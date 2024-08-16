@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/all.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <script src="../js/JQ.js"></script>
+  </head>
+
+  <body>
+    <!-- =================  START LOGIN  ============== -->
+
+    <div class="row">
+      <div class="left col-4 mr-0">
+        <img class="col-lg-4 col-5" src="./image/logo_white.png" />
+        <h1 class="text-center text-white mt-lg-4 mt-md-3 mt-2">Welcome</h1>
+        <p class="col-lg-7 text-center text-white mt-lg-4 mt-md-3 mt-2">
+          You are 30 seconds away from earning your own money!
+        </p>
+        <button
+          type="button"
+          class="btn btn-light col-6 col-sm-4 col-md-4 col-lg-4"
+        >
+          Login
+        </button>
+      </div>
+
+      <!-- =================  END LOGIN  ============== -->
+
+      <!-- ============  START PAGE 2  ================= -->
+
+      <div class="right col-8 pb-4" id="right">
+        <!-- ===========  START TOP REGISTER 2  ============ -->
+
+        <div class="right-register col-5 mt-5 mr-4">
+          <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a
+                class="nav-link text-white"
+                id="home1"
+                data-toggle="tab"
+                href="#home"
+                role="tab"
+                aria-controls="home"
+                aria-selected="true"
+                >Employee</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-primary"
+                id="profile1"
+                data-toggle="tab"
+                href="#profile"
+                role="tab"
+                aria-controls="profile"
+                aria-selected="false"
+                >Hirer</a
+              >
+            </li>
+          </ul>
+        </div>
+        <h3 class="text-center">Apply as a Hirer</h3>
+        <div class="container ml-3 mt-0">
+          <!-- ===========  END TOP REGISTER 2  ============ -->
+
+          <!-- ===========  START FORM 2  ============ -->
+          <form>
+            <input
+              type="text"
+              class="inp1 col-5 ml-lg-5 ml-md-3 p-2"
+              id="firstname1"
+              placeholder="First Name"
+              aria-label="Username"
+              aria-describedby="addon-wrapping"
+            />
+
+            <small id="small_1"> Please fill this field. </small>
+
+            <input
+              type="password"
+              class="inp1 col-5 ml-3 p-2 pr-4"
+              id="pass1"
+              placeholder="Password"
+              aria-label="Username"
+              maxlength="30"
+              aria-describedby="addon-wrapping"
+              required
+            />
+
+            <i id="icon5" class="fa fa-eye-slash"></i>
+            <i id="icon6" class="fa fa-eye"></i>
+
+            <small id="small_5"> Please fill this field. </small>
+            <small id="small_6"> Pass is weak. </small>
+            <small id="small_7"> Pass is good. </small>
+            <small id="small_8"> Pass is excellent. </small>
+
+            <input
+              type="text"
+              class="col-5 mt-4 ml-lg-5 ml-md-3 p-2"
+              id="lastname1"
+              placeholder="Last Name"
+              aria-label="Username"
+              aria-describedby="addon-wrapping"
+            />
+
+            <small id="small_3"> Please fill this field. </small>
+
+            <input
+              type="password"
+              class="col-5 mt-4 ml-3 p-2 pr-4"
+              id="copass1"
+              placeholder="Confirm Password"
+              aria-label="Username"
+              maxlength="30"
+              aria-describedby="addon-wrapping"
+            />
+
+            <i id="icon7" class="fa fa-eye-slash"></i>
+            <i id="icon8" class="fa fa-eye"></i>
+
+            <small id="small_9"> Please fill this field. </small>
+            <small id="small_10"> Pass is not correct. </small>
+            <small id="small_11"> Pass is correct. </small>
+
+            <input
+              type="email"
+              class="col-5 mt-4 ml-lg-5 ml-md-3 p-2"
+              id="youremail1"
+              placeholder="Your Email"
+              aria-label="Username"
+              aria-describedby="addon-wrapping"
+              required
+            />
+
+            <small id="small_2"> Please fill this field. </small>
+
+            <select class="col-5 mt-4 ml-3 p-2">
+              <option hidden>Please select your Sequrity Question</option>
+              <option>What is your Birthdate?</option>
+              <option>What is Your old Phone Number</option>
+              <option>What is your Pet Name?</option>
+            </select>
+            <input
+              type="number"
+              class="col-5 mt-4 ml-lg-5 ml-md-3 p-2"
+              id="phone1"
+              maxlength="11"
+              placeholder="Phone"
+              aria-label="Username"
+              aria-describedby="addon-wrapping"
+            />
+
+            <small id="small_4"> Please fill this field. </small>
+            <small id="small_"> Numbers is more than 11 num. </small>
+            <small id="small_s"> Numbers is less than 11 num. </small>
+
+            <input
+              type="text"
+              class="col-5 mt-4 ml-3 p-2"
+              placeholder="Answer Your Question"
+              aria-label="Username"
+              aria-describedby="addon-wrapping"
+            />
+          </form>
+          <div class="gender mt-3 ml-lg-5 ml-md-3 p-1">
+            <input type="radio" name="gender1" value="male" checked />
+            <span> Male </span>
+            <input type="radio" name="gender1" value="female" />
+            <span>Female </span>
+          </div>
+          <form class="mr-2 mr-lg-5 mr-md-5 mt-lg-2 mt-md-3">
+            <button
+              type="submit"
+              id="button1"
+              class="btn btn-primary col-4 col-sm-3 col-md-3 col-lg-3 mr-lg-4 mr-mg-4 mr-3"
+            >
+              Register
+            </button>
+          </form>
+
+          <!-- ===========  END FORM 2  ============ -->
+        </div>
+      </div>
+
+      <!-- ============  END PAGE 2  ================= -->
+
+      <!-- ============  START PAGE 1  ================= -->
+
+      <div class="right2 col-8 pb-4" id="right2">
+        <!-- ===========  START TOP REGISTER1  ============ -->
+
+        <div class="right-register col-5 mt-5 mr-4">
+          <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-primary"
+                id="home"
+                data-toggle="tab"
+                href="#home"
+                role="tab"
+                aria-controls="home"
+                aria-selected="true"
+                >Employee</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white"
+                id="profile"
+                data-toggle="tab"
+                href="#profile"
+                role="tab"
+                aria-controls="profile"
+                aria-selected="false"
+                >Hirer</a
+              >
+            </li>
+          </ul>
+        </div>
+        <h3 class="text-center">Apply as a Employee</h3>
+        <div class="container ml-3 mt-0">
+          <!-- ===========  END TOP REGISTER1  ============ -->
+
+          <!-- ===========  SART FORM1  ============ -->
+
+          <form>
+            <input
+              type="text"
+              class="inp1 col-5 ml-lg-5 ml-md-3 p-2"
+              id="firstname"
+              placeholder="First Name"
+              aria-label="Username"
+              aria-describedby="addon-wrapping"
+            />
+
+            <small id="small1"> Please fill this field. </small>
+
+            <input
+              type="email"
+              class="inp1 col-5 ml-3 p-2"
+              id="youremail"
+              placeholder="Your Email"
+              aria-label="Username"
+              aria-describedby="addon-wrapping"
+              required
+            />
+
+            <small id="small2"> Please fill this field. </small>
+
+            <input
+              type="text"
+              class="col-5 mt-4 ml-lg-5 ml-md-3 p-2"
+              id="lastname"
+              placeholder="Last Name"
+              aria-label="Username"
+              aria-describedby="addon-wrapping"
+            />
+
+            <small id="small3"> Please fill this field. </small>
+
+            <input
+              type="number"
+              class="col-5 mt-4 ml-3 p-2"
+              id="phone"
+              maxlength="11"
+              placeholder="Your Phone"
+              aria-label="Username"
+              aria-describedby="addon-wrapping"
+              required
+            />
+
+            <small id="small4"> Please fill this field. </small>
+            <small id="small"> Numbers is more than 11 num. </small>
+            <small id="smalls"> Numbers is less than 11 num. </small>
+
+            <input
+              type="password"
+              class="col-5 mt-4 ml-lg-5 ml-md-3 p-2 pr-4"
+              id="pass"
+              placeholder="Password"
+              aria-label="Username"
+              maxlength="30"
+              aria-describedby="addon-wrapping"
+            />
+
+            <i id="icon1" class="fa fa-eye-slash"></i>
+            <i id="icon2" class="fa fa-eye"></i>
+
+            <small id="small5"> Please fill this field. </small>
+            <small id="small6"> Pass is weak. </small>
+            <small id="small7"> Pass is good. </small>
+            <small id="small8"> Pass is excellent. </small>
+
+            <select class="col-5 mt-4 ml-3 p-2">
+              <option hidden>Please select your Sequrity Question</option>
+              <option>What is your Birthdate?</option>
+              <option>What is Your old Phone Number</option>
+              <option>What is your Pet Name?</option>
+            </select>
+            <input
+              type="password"
+              class="col-5 mt-4 ml-lg-5 ml-md-3 p-2 pr-4"
+              id="copass"
+              placeholder="Confirm Password"
+              aria-label="Username"
+              maxlength="30"
+              aria-describedby="addon-wrapping"
+            />
+
+            <i id="icon3" class="fa fa-eye-slash"></i>
+            <i id="icon4" class="fa fa-eye"></i>
+
+            <small id="small9"> Please fill this field. </small>
+            <small id="small10"> Pass is not correct. </small>
+            <small id="small11"> Pass is correct. </small>
+
+            <input
+              type="text"
+              class="col-5 mt-4 ml-3 p-2"
+              placeholder="Answer Your Question"
+              aria-label="Username"
+              aria-describedby="addon-wrapping"
+            />
+          </form>
+          <div class="gender mt-3 ml-lg-5 ml-md-3 p-1">
+            <input type="radio" name="gender" value="male" checked />
+            <span> Male </span>
+            <input type="radio" name="gender" value="female" />
+            <span>Female </span>
+          </div>
+          <form class="mr-2 mr-lg-5 mr-md-5 mt-lg-3 mt-md-3">
+            <button
+              type="submit"
+              id="button"
+              class="btn btn-primary col-4 col-sm-3 col-md-3 col-lg-3 mr-lg-4 mr-mg-4 mr-3"
+            >
+              Register
+            </button>
+          </form>
+
+          <!-- ===========  END FORM1  ============ -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ============  END PAGE 1  ================= -->
+
+    <script src="./js/development jq.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/main2.js"></script>
+  </body>
+</html>
